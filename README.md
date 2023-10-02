@@ -47,6 +47,6 @@ te gebruiken kunnen we de _System Output_ van het process zien:
 Dus bijv:
 ``docker logs 9d18b2a81b30``
 
-
-
-
+## Afronden opdracht
+Rond deze opdracht af door het container-id op te slaan in het bestand ``container.txt``
+en dit te committen en te pushen naar deze Git-repo.
