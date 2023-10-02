@@ -29,6 +29,8 @@ _Detached_ wil zeggen dat we de container in de achtergrond draaien, en dus na s
 
 Ga nu in een browser naar http://localhost:8080 en bewonder je eigen pagina (of die van je buurman of vrouw)
 
+## Bekijken draaiende containers en logs
+
 Maar hoe kunnen we zien dat de container nog draait, zonder naar de site zelf toe te gaan bijvoorbeeld?
 Alle containers zijn op te vragen door het volgende commando te gebruiken:
 
