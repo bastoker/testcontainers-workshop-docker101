@@ -29,6 +29,20 @@ _Detached_ wil zeggen dat we de container in de achtergrond draaien, en dus na s
 
 Ga nu in een browser naar http://localhost:8080 en bewonder je eigen pagina (of die van je buurman of vrouw)
 
+Maar hoe kunnen we zien dat de container nog draait, zonder naar de site zelf toe te gaan bijvoorbeeld?
+Alle containers zijn op te vragen door het volgende commando te gebruiken:
+
+``docker ps``
+
+Dit staat voor 'Docker Processes'. Want elke container is synoniem met 1 process op OS-niveau.
+
+De eerste kolom is het container-id. Door dat te knippen en te plakken en vervolgens in het volgende commando
+te gebruiken kunnen we de _System Output_ van het process zien:
+
+``docker logs <container-id>``
+Dus bijv:
+``docker logs 9d18b2a81b30``
+
 
 
 
