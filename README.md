@@ -50,3 +50,7 @@ Dus bijv:
 ## Afronden opdracht
 Rond deze opdracht af door het container-id op te slaan in het bestand ``container.txt``
 en dit te committen en te pushen naar deze Git-repo.
+
+## Na afloop
+Na afloop kan je de evt. draaiende container verwijderen door het volgende commando uit te voeren:
+`` docker kill <container-id>``
