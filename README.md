@@ -36,6 +36,8 @@ Alle containers zijn op te vragen door het volgende commando te gebruiken:
 
 Dit staat voor 'Docker Processes'. Want elke container is synoniem met 1 process op OS-niveau.
 
+**TIP**: Dit commando is ook altijd handig om te gebruiken als je wilt checken of Docker goed gestart is op je PC :-)
+
 De eerste kolom is het container-id. Door dat te knippen en te plakken en vervolgens in het volgende commando
 te gebruiken kunnen we de _System Output_ van het process zien:
 
