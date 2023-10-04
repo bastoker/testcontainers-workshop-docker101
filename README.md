@@ -48,8 +48,10 @@ Dus bijv:
 ``docker logs 9d18b2a81b30``
 
 ## Afronden opdracht
-Rond deze opdracht af door het container-id op te slaan in het bestand ``container.txt``
-en dit te committen en te pushen naar deze Git-repo.
+Rond deze opdracht af door het container-id op te slaan in het bestand ``container.txt``.
+
+Voeg deze wijziging door met met een ``git commit`` en ``git push`` naar deze Git-repo. Je kan de test ook in de UI
+van GitHub.com zelf aanpassen.
 
 ## Na afloop
 Na afloop kan je de evt. draaiende container verwijderen door het volgende commando uit te voeren:
