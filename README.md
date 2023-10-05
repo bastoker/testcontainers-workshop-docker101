@@ -11,7 +11,8 @@ Hint: Emoji's geven bonuspunten
 
 In deze Dockerfile gebruiken we de officiële Nginx-basisimage als webserver, we kopiëren het index.html bestand naar de standaard HTML-directory van Nginx, stellen we poort 80 (de standaard HTTP-poort) beschikbaar en starten we Nginx.
 
-Open een terminal en voer de volgende opdracht uit om het Docker-image te bouwen, volgens het recept in de Dockerfile:
+Open een terminal en ga naar de root-folder van dit project.
+Voer de volgende opdracht uit om het Docker-image te bouwen, volgens het recept in de Dockerfile:
 
 Mac/Linux: 
 ``./create-docker-image.sh``
