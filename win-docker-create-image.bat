@@ -6,5 +6,5 @@ for /f "delims=" %%i in ('git symbolic-ref --short HEAD 2^>nul') do (
 )
 
 REM Build the Docker image with the tag docker-101
-docker build -t docker-101:%tag% .
+docker build -tag docker-101:%tag% .
 
