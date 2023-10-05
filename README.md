@@ -17,7 +17,7 @@ Mac/Linux:
 ``./create-docker-image.sh``
 
 Windows: 
-``win-create-docker-image.bat``
+``win-docker-create-image.bat``
 
 ## Starten van een container o.b.v. dit image
 Zodra het image succesvol is gebouwd, kunnen we een container op basis daarvan starten met de volgende opdracht:
